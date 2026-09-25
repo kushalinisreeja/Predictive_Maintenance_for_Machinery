@@ -1,0 +1,62 @@
+{
+  "binary_classification": {
+    "roc_auc": 0.999,
+    "f1_score": 0.9615,
+    "confusion_matrix": [
+      [
+        1744,
+        8
+      ],
+      [
+        11,
+        237
+      ]
+    ]
+  },
+  "multiclass_diagnosis": {
+    "macro_f1": 0.7481,
+    "classes": [
+      "HDF",
+      "No Failure",
+      "OSF",
+      "PWF",
+      "RNF",
+      "TWF"
+    ]
+  },
+  "rul_regression": {
+    "rmse_hours": 14.27,
+    "mae_hours": 2.82,
+    "r2_score": 0.9758
+  },
+  "feature_importances": {
+    "Vibration_mms": 0.5558,
+    "Tool_Wear_min": 0.2137,
+    "Tool_Wear_Strain": 0.0789,
+    "Mechanical_Power_W": 0.0408,
+    "Power_To_Speed_Ratio": 0.0231,
+    "Torque_Nm": 0.0226,
+    "Temp_Difference_K": 0.0202,
+    "Thermal_Stress_Index": 0.0175,
+    "Rotational_Speed_RPM": 0.0168,
+    "Process_Temperature_K": 0.0048,
+    "Air_Temperature_K": 0.0045,
+    "Type_M": 0.0007,
+    "Type_H": 0.0006
+  },
+  "features": [
+    "Air_Temperature_K",
+    "Process_Temperature_K",
+    "Rotational_Speed_RPM",
+    "Torque_Nm",
+    "Tool_Wear_min",
+    "Vibration_mms",
+    "Temp_Difference_K",
+    "Mechanical_Power_W",
+    "Tool_Wear_Strain",
+    "Power_To_Speed_Ratio",
+    "Thermal_Stress_Index",
+    "Type_M",
+    "Type_H"
+  ]
+}
